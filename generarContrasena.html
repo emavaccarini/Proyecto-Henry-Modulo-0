@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Henry security SAS </title>
+</head>
+
+<body>
+     <header>
+        <img src="HEN-Logo.png"  alt="Henry"/> 
+        <nav></nav>
+           <div>
+               <h2>
+            
+                <a href="index.html">HOME</a></li>
+
+                <a href="generarContrasena.html">Generador de Contraseñas</a></li>
+
+                <a href="cajaFuerte.html">Caja Fuerte</a></li>
+
+                <a href="monitoreoActividad.html">Monitoreo</a></li>
+
+                <a href="gestionUsuarios.html">Gestion de Usuarios</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+                <h1> Asistente De Seguridad </h1>
+          <section>
+            <h3 id="subGenContraseñas"> GENERADOR DE CONTRASEÑAS PARA USUARIOS </h3>
+            <article id="generarContrasena">
+              <div class="separador4">
+                <div class="contenedorGenContrasena">
+                  <label> Cantidad de caracteres deseados </label>
+                  <input type="number" id="longitud">
+                </div>
+                <br>
+                <div class="contenedorGenContrasena">
+                  <label> ¿ incluir caracteres especiales ?</label>
+                  <input type="checkbox" id="especiales">
+                </div>
+                <br>
+                <div class="contenedorGenContrasena">
+                  <label> ¿ incluir caracteres numeros ?</label>
+                  <input type="checkbox" id="numeros">
+                </div>
+                <br>
+                <div class="contenedorGenContrasena">
+                  <label> ¿ incluir caracteres mayusculas ?</label>
+                  <input type="checkbox" id="mayusculas">
+                </div>
+                <br>
+                <button id="generar"> Generar Contraseña </button>
+                
+              </div>
+            
+
+            <article id="contenedorContrasenaGenerada">
+                <h3 id="contrasenaGenerada"> 
+                  <p id="contrasena"> </p></h3>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

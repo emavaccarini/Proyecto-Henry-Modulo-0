@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Henry security SAS </title>
+</head>
+
+<body>
+   <header>
+        <img src="HEN-Logo.png"  alt="Henry"/> 
+        <nav>
+           <div>
+               <h2>
+            
+                <a href="index.html">HOME</a></li>
+
+                <a href="generarContrasena.html">Generador de Contraseñas</a></li>
+
+                <a href="cajaFuerte.html">Caja Fuerte</a></li>
+
+                <a href="monitoreoActividad.html">Monitoreo</a></li>
+
+                <a href="gestionUsuarios.html">Gestion de Usuarios</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+      
+            <h1> Asistente De Seguridad </h1>
+         <section>
+            <h3 id="subMoniActividad"> SISTEMA DE MONITOREO DE ACTIVIDAD SOSPECHOSA </h3>
+            <article id="monitoreoActividad"> </article>
+              <div>
+                <label> Descripcion </label>
+                <input type="text" id="descripcion">
+                <label class="margin-left25px"> Nivel de riesgo  </label>
+                <input type="text" id="nivelRiesgo" >
+                <button id="agregar" class="margin-left25px"> AGREGAR ACTIVIDAD </button>
+              </div>
+              <br>
+              <div>
+                <label> Eliminar una actividad sospechosa </label>
+                <input type="text" placeholder="Indice de la actividad..." id="indice" class="margin-left10px">
+                <button id="eliminar" class="margin-left25px"> ELIMINAR ACTIVIDAD </button>
+              </div>
+              <br>
+              <div>
+                <label> Filtrar actividades por nivel de riesgo </label>
+                <input type="text" placeholder="Nivel de riesgo...." id="nivel" class="margin-left10px">
+                <button id="filtrar" class="margin-left25px"> MOSTRAR ACTVIDADES </button>
+              </div>
+              <button id="generar"> GENERAR REPORTE </button>
+           
+            <h3 id="reporteGenerado"> REPORTE GENERADO </h3>
+            <article id="mostrar"></article> </article>
+          </section>
+    </main>
+</body>
+
+</html>

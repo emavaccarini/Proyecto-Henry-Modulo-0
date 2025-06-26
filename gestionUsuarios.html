@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Henry security SAS </title>
+</head>
+
+<body>
+  <header>
+    <img src="HEN-Logo.png"  alt="Henry"/> 
+    <nav>
+       <div>
+           <h2>
+
+            <a href="index.html">HOME</a></li>
+
+            <a href="generarContrasena.html">Generador de Contraseñas</a></li>
+
+            <a href="cajaFuerte.html">Caja Fuerte</a></li>
+
+            <a href="monitoreoActividad.html">Monitoreo</a></li>
+
+            <a href="gestionUsuarios.html">Gestion de Usuarios</a></li>
+
+           </h2>
+       </div>
+   </nav>
+  </header>
+    <main>
+                  <h1> Asistente De Seguridad </h1>
+        <section>
+            <h3 id="subGestionPerfiles"> GESTIÓN DE PERFILES </h3>
+            <article id="gestionPerfiles">
+                <div>
+                  <label> Ver Perfiles </label>
+                  <select id="opcion" class="margin-left10px">
+                    <option value=""> Seleccione una opcion </option>
+                    <option value="todo"> Todo </option>
+                    <option value="nombre"> Nombre </option>
+                    <option value="codigo"> Codigo </option>
+                    <option value="nivel"> Nivel </option>
+                    <option value="antiguedad"> Antiguedad </option>
+                  </select>
+                  <button id="ver" class="margin-left10px"> VER </button>
+                </div>
+                <br>
+                <div>
+                  <label> Ver Perfiles Por Antiguedad </label>
+                  <button id="verAntiguedad" class="margin-left10px"> VER </button>
+                </div>
+                <br>
+                <div>
+                  <label> Ver Administradores </label>
+                  <button id="verAdministradores" class="margin-left10px"> VER </button>
+                </div>
+                <br>
+                <div>
+                  <label id="modificarAcceso"> MODIFICAR ACCESO </label>
+                </div>
+                <br>
+                <div>
+                  <label > Usuario </label>
+                  <input type="text" id="usuario" class="margin-left10px" placeholder="Nombre de usuario...">
+                </div>
+                <br>
+                <div>
+                  <label> Nuevo código de acceso </label>
+                  <input type="text" id="codigo" class="margin-left10px">
+                </div>
+                <br>
+                <button id="actualizarAcceso"> ACTUALIZAR </button>
+                <br>
+
+            
+
+            <article id="mostrar"></article>
+            
+        </section>
+    </main>
+</body>
+
+</html>

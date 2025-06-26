@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Henry security SAS </title>
+</head>
+
+<body>
+     <header>
+        <img src="HEN-Logo.png"  alt="Henry"/> 
+        <nav>
+           <div>
+               <h2>
+            
+                <a href="index.html">HOME</a></li>
+
+                <a href="generarContrasena.html">Generador de Contraseñas</a></li>
+
+                <a href="cajaFuerte.html">Caja Fuerte</a></li>
+
+                <a href="monitoreoActividad.html">Monitoreo</a></li>
+
+                <a href="gestionUsuarios.html">Gestion de Usuarios</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+     
+            <h1> Asistente De Seguridad </h1>
+       <section>
+            <h3> CAJA FUERTE </h3>
+            <article id="cajaFuerte">
+                <div class="separador1">
+                  <label> Codigo Secreto  </label>
+                  <input type="text" id="codigoSecreto">
+                  <label> Cantidad de intentos </label>
+                  <input type="number" id="cantidadIntentos">                
+                  <button id="guardar"> GUARDAR </button>
+                  <br>
+                </div>
+                <div class="separador2">
+                  <label id="validarCodigoSecreto"> Validar Código Secreto </label> 
+                  <input type="text" id="codigoDesbloqueo">
+                  <br>
+                  <div class="separador3">
+                    <button id="validar"> VALIDAR CÓDIGO </button>
+                    <button id="reset"> RESET </button>
+                  </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
