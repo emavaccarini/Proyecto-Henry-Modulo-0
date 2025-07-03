@@ -1,0 +1,11 @@
+{
+  "printWidth": 120,               // Permite líneas más largas antes de hacer saltos
+  "tabWidth": 2,                   // Tamaño del tabulado (2 espacios)
+  "useTabs": false,                // Usa espacios en lugar de tabs
+  "semi": true,                    // Agrega punto y coma al final de las líneas
+  "singleQuote": true,            // Usa comillas simples en lugar de dobles
+  "bracketSpacing": true,         // Espacio entre llaves en objetos: { foo: bar }
+  "htmlWhitespaceSensitivity": "ignore", // No rompe líneas en HTML por espacios
+  "endOfLine": "lf",              // Fin de línea (lf es el estándar)
+  "embeddedLanguageFormatting": "auto" // Formatea correctamente CSS/JS dentro de HTML
+}
